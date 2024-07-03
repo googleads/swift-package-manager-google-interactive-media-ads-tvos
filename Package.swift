@@ -28,8 +28,9 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "GoogleInteractiveMediaAdsTvOS",
-      url: "https://imasdk.googleapis.com/native/downloads/ima-tvos-v4.11.1.zip",
-      checksum: "fbd68a6331cabd9047539017ac16327790b46a01ea1e6ac13ab78ef82d496b9c"
+      url:
+        "https://imasdk.googleapis.com/downloads/ima/tvos/GoogleInteractiveMediaAds-tvos-v4.13.0.zip",
+      checksum: "bddd3afaa7f13f8205a51f8798e8db285e495b3598a37dce47da1b29d06aae44"
     )
   ]
 )
