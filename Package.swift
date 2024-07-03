@@ -17,17 +17,17 @@
 import PackageDescription
 
 let package = Package(
-  name: "GoogleInteractiveMediaAds",
+  name: "GoogleInteractiveMediaAdsTvOS",
   platforms: [.tvOS(.v11)],
   products: [
     .library(
-      name: "GoogleInteractiveMediaAds",
-      targets: ["GoogleInteractiveMediaAds"]
+      name: "GoogleInteractiveMediaAdsTvOS",
+      targets: ["GoogleInteractiveMediaAdsTvOS"]
     )
   ],
   targets: [
     .binaryTarget(
-      name: "GoogleInteractiveMediaAds",
+      name: "GoogleInteractiveMediaAdsTvOS",
       url:
         "https://imasdk.googleapis.com/downloads/ima/tvos/GoogleInteractiveMediaAds-tvos-v4.13.0.zip",
       checksum: "bddd3afaa7f13f8205a51f8798e8db285e495b3598a37dce47da1b29d06aae44"
